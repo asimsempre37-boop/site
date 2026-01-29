@@ -1,3 +1,16 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-banner",
+      "description": "A construction site with a large dumpster, conveying a professional and industrial feel.",
+      "imageUrl": "https://images.unsplash.com/photo-1762326440545-44232a174fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb25zdHJ1Y3Rpb24lMjBkdW1wc3RlcnxlbnwwfHx8fDE3Njk2ODY1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "construction dumpster"
+    },
+    {
+      "id": "about-us-image",
+      "description": "A clean and organized area with a dumpster, showing commitment to cleanliness and sustainability.",
+      "imageUrl": "https://images.unsplash.com/photo-1623434974327-f5934bfac387?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjbGVhbiUyMGR1bXBzdGVyfGVufDB8fHx8MTc2OTY4NjU3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean dumpster"
+    }
+  ]
 }
