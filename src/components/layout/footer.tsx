@@ -1,8 +1,15 @@
+"use client";
+
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const [year, setYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className="w-full border-t bg-secondary">
@@ -12,9 +19,9 @@ export function Footer() {
             <Image 
               src="/images/logo.png" 
               alt="Prime Caçamba" 
-              width={160} 
-              height={45} 
-              className="h-10 w-auto object-contain"
+              width={200} 
+              height={60} 
+              className="h-12 w-auto object-contain"
             />
           </Link>
           <p className="text-sm text-muted-foreground">Aluguel de caçambas rápido, seguro e sustentável para sua obra ou limpeza.</p>
@@ -44,7 +51,7 @@ export function Footer() {
       <div className="border-t">
         <div className="container mx-auto flex h-14 items-center justify-center px-4 md:px-6">
           <p className="text-center text-sm text-muted-foreground">
-            &copy; {currentYear} Prime Caçamba. Todos os direitos reservados.
+            &copy; {year || '2025'} Prime Caçamba. Todos os direitos reservados.
           </p>
         </div>
       </div>
