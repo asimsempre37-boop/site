@@ -1,9 +1,10 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Truck } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { useState } from 'react';
 
 const NavLink = ({ href, children, onLinkClick }: { href: string; children: React.ReactNode; onLinkClick?: () => void }) => (
@@ -39,9 +40,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur-sm">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold">
-          <Truck className="h-6 w-6 text-primary" />
-          <span>Prime Caçamba</span>
+        <Link href="/" className="flex items-center transition-opacity hover:opacity-90">
+          <Image 
+            src="/images/logo.png" 
+            alt="Prime Caçamba" 
+            width={180} 
+            height={50} 
+            className="h-10 w-auto object-contain"
+            priority
+          />
         </Link>
         
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
@@ -61,9 +68,14 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right">
               <div className="flex flex-col gap-6 p-6">
-                <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold" onClick={handleLinkClick}>
-                  <Truck className="h-6 w-6 text-primary" />
-                  <span>Prime Caçamba</span>
+                <Link href="/" className="flex items-center" onClick={handleLinkClick}>
+                  <Image 
+                    src="/images/logo.png" 
+                    alt="Prime Caçamba" 
+                    width={150} 
+                    height={40} 
+                    className="h-8 w-auto object-contain"
+                  />
                 </Link>
                 <nav className="flex flex-col items-start gap-4 text-lg font-medium">
                   {navLinks}
