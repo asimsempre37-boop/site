@@ -19,9 +19,9 @@ export function Footer() {
             <Image 
               src="/images/logo.png" 
               alt="Prime Caçamba" 
-              width={200} 
-              height={60} 
-              className="h-12 w-auto object-contain"
+              width={400} 
+              height={160} 
+              className="h-20 w-auto object-contain"
             />
           </Link>
           <p className="text-sm text-muted-foreground">Aluguel de caçambas rápido, seguro e sustentável para sua obra ou limpeza.</p>
