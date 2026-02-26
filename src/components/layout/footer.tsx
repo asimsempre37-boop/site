@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex flex-col items-start gap-2">
           <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold">
             <Truck className="h-6 w-6 text-primary" />
-            <span>Caçambas Brasil</span>
+            <span>Prime Caçamba</span>
           </Link>
           <p className="text-sm text-muted-foreground">Aluguel de caçambas rápido e seguro.</p>
         </div>
@@ -39,7 +39,7 @@ export function Footer() {
       <div className="border-t">
         <div className="container mx-auto flex h-14 items-center justify-center px-4 md:px-6">
           <p className="text-center text-sm text-muted-foreground">
-            &copy; {currentYear} Caçambas Brasil. Todos os direitos reservados.
+            &copy; {currentYear} Prime Caçamba. Todos os direitos reservados.
           </p>
         </div>
       </div>

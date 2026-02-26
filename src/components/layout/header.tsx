@@ -41,7 +41,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold">
           <Truck className="h-6 w-6 text-primary" />
-          <span>Caçambas Brasil</span>
+          <span>Prime Caçamba</span>
         </Link>
         
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
@@ -63,7 +63,7 @@ export function Header() {
               <div className="flex flex-col gap-6 p-6">
                 <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold" onClick={handleLinkClick}>
                   <Truck className="h-6 w-6 text-primary" />
-                  <span>Caçambas Brasil</span>
+                  <span>Prime Caçamba</span>
                 </Link>
                 <nav className="flex flex-col items-start gap-4 text-lg font-medium">
                   {navLinks}

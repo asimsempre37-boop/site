@@ -81,7 +81,7 @@ export default function Home() {
             Aluguel de Caçambas <span className="text-primary">Rápido e Seguro</span>
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-neutral-200 md:text-xl">
-            A solução completa para sua obra, reforma ou limpeza. Atendimento imediato e os melhores preços.
+            A solução completa para sua obra, reforma ou limpeza. Atendimento imediato e os melhores preços com a Prime Caçamba.
           </p>
           <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold">
             <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
@@ -95,9 +95,9 @@ export default function Home() {
       <section id="sobre" className="py-16 md:py-24 bg-secondary">
         <div className="container mx-auto grid grid-cols-1 items-center gap-12 px-4 md:grid-cols-2 md:px-6">
           <div className="order-2 md:order-1">
-            <h2 className="font-headline text-3xl font-bold tracking-tight md:text-4xl">Sobre a Caçambas Brasil</h2>
+            <h2 className="font-headline text-3xl font-bold tracking-tight md:text-4xl">Sobre a Prime Caçamba</h2>
             <p className="mt-4 text-muted-foreground">
-              A Caçambas Brasil nasceu com a missão de simplificar o gerenciamento de resíduos para clientes de todos os portes. Somos uma empresa comprometida com a pontualidade, oferecendo um serviço ágil e confiável que se adapta às necessidades da sua obra ou projeto.
+              A Prime Caçamba nasceu com a missão de simplificar o gerenciamento de resíduos para clientes de todos os portes. Somos uma empresa comprometida com a pontualidade, oferecendo um serviço ágil e confiável que se adapta às necessidades da sua obra ou projeto.
             </p>
             <p className="mt-4 text-muted-foreground">
               Nosso compromisso vai além da entrega. Priorizamos a sustentabilidade, garantindo que todo o entulho e resíduo coletado seja descartado de forma ecologicamente correta, em aterros e centros de triagem licenciados. Confiança, agilidade e respeito ao meio ambiente são os pilares do nosso trabalho.
@@ -151,7 +151,7 @@ export default function Home() {
           <div className="text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight md:text-4xl">Nossos Diferenciais</h2>
             <p className="mt-2 max-w-xl mx-auto text-muted-foreground">
-              Por que escolher a Caçambas Brasil?
+              Por que escolher a Prime Caçamba?
             </p>
           </div>
           <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
