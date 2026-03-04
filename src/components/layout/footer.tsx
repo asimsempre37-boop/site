@@ -11,6 +11,8 @@ export function Footer() {
     setYear(new Date().getFullYear());
   }, []);
 
+  const phoneNumber = "5531996410208";
+
   return (
     <footer className="w-full border-t bg-secondary">
       <div className="container mx-auto grid grid-cols-1 gap-8 px-4 py-12 md:grid-cols-3 md:px-6">
@@ -43,8 +45,8 @@ export function Footer() {
           </div>
           <div className="flex flex-col gap-2">
             <h4 className="font-bold border-b pb-1 mb-1">Contato</h4>
-            <p className="text-muted-foreground">WhatsApp: (11) 99999-9999</p>
-            <p className="text-muted-foreground">Telefone: (11) 4444-4444</p>
+            <p className="text-muted-foreground">WhatsApp: (31) 99641-0208</p>
+            <Link href={`tel:${phoneNumber}`} className="text-muted-foreground hover:text-foreground">Telefone: (31) 99641-0208</Link>
           </div>
         </div>
       </div>

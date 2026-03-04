@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ContactForm } from '@/components/contact-form';
 import { HardHat, Trash2, LandPlot, Building2, Clock, CircleDollarSign, Map, Recycle, Phone, MessageSquare } from 'lucide-react';
 
-const phoneNumber = "5511999999999"; // Placeholder
+const phoneNumber = "5531996410208";
 const message = "Olá! Gostaria de solicitar um orçamento para aluguel de caçamba.";
 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
@@ -182,13 +182,13 @@ export default function Home() {
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
                     <MessageSquare className="h-6 w-6 text-primary" />
                   </div>
-                  <span>(11) 99999-9999 (WhatsApp)</span>
+                  <span>(31) 99641-0208 (WhatsApp)</span>
                 </a>
-                <a href="tel:551144444444" className="flex items-center gap-3 text-lg font-medium transition-colors hover:text-primary">
+                <a href={`tel:${phoneNumber}`} className="flex items-center gap-3 text-lg font-medium transition-colors hover:text-primary">
                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
                     <Phone className="h-6 w-6 text-primary" />
                    </div>
-                  <span>(11) 4444-4444</span>
+                  <span>(31) 99641-0208</span>
                 </a>
               </div>
             </div>

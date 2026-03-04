@@ -10,7 +10,7 @@ const WhatsAppSvg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 export function WhatsappButton() {
-  const phoneNumber = "5511999999999"; // Placeholder number
+  const phoneNumber = "5531996410208";
   const message = "Olá! Gostaria de solicitar um orçamento para aluguel de caçamba.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
